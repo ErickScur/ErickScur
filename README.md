@@ -2,7 +2,7 @@
 
 ## Sou um Programador JavaScript e Estudante de Computação!
 
-- 🔭 Estou atualmente trabalhando em uma API REST [API]
+- 🔭 Estou atualmente trabalhando em uma API REST [Conheça o Projeto](https://github.com/ErickScur/API-clothing-store)
 - 🌱 Atualmente estou estou estudando Node
 - 👯 A procura de emprego/estágio remoto
 - 🥅 2021 Goals: Achar um emprego e ser uma pessoa melhor
@@ -34,6 +34,6 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=erickscur&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=erickscur&layout=compact&langs_count=7&theme=dracula"/>
 </div>
- [API]: https://github.com/ErickScur/API-clothing-store
+
                                                                                      
 
