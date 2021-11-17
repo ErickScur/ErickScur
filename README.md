@@ -4,8 +4,7 @@
 
 - 🔭 Estou atualmente trabalhando em uma API REST [Conheça o Projeto](https://github.com/ErickScur/API-clothing-store)
 - 🌱 Atualmente estou estou estudando Node
-- 👯 A procura de emprego/estágio remoto
-- 🥅 2021 Goals: Achar um emprego e ser uma pessoa melhor
+- 💼 Desenvolvedor Backend na ADV Tecnologia
 
 
  
