@@ -1,27 +1,55 @@
-### Meu nome é Erick Scur!
+# Hi, my name is Erick!
 
-## Sou um Programador JavaScript e Estudante de Computação!
+👨‍🎓 Computer Science Student at Instituto Federal Catarinense
 
-- 🔭 Estou atualmente trabalhando em uma API REST [Conheça o Projeto](https://github.com/ErickScur/API-clothing-store)
-- 🌱 Atualmente estou estou estudando Node
-- 💼 Desenvolvedor Backend na ADV Tecnologia
+👨🏻‍💻 Back-End JavaScript Developer
 
+💼 NodeJS Developer at [ADV Tecnologia](https://www.advtecnologia.com.br/)
+
+
+## About
+- 👦🏻 I'm 18 years old and I live in Videira, Santa Carina, Brazil
+- 🔭 I'm currently working on a REST API [Visit the Project](https://github.com/ErickScur/API-clothing-store)
+- 🌱 Currently studying NodeJS
+- 🧟 Passionate about horror books and movies
+- 🎶 I love listening to Rock, Rap and Pop songs [Spotify Profile](https://open.spotify.com/user/yh5qrz32hhwt9d4wu5rmtnub5?si=da805ebeef884af5)
 
  
- ### Ferramentas e Linguagens:
-<div style="display: inline_block">
-  <img align="center" alt="Js" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-    <img align="center" alt="HTML" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="React" height="40" width="40" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/php.svg">
- <img align="center" alt="terminal" height="40" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"">
- <img align="center" alt="node" height="40" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png">
-   <img align="center" alt="git" height="40" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png">
-   <img align="center" alt="github" height="40" width="40" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png">
-
+ ### Tools and Languages
+<div>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+		<img height="36" title="HTML" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/html.svg">
+	</a>
+	<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+		<img height="36" title="CSS" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/css.svg">
+	</a>
+ <a href="https://www.php.net" target="_blank">
+		<img height="36" title="PHP" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/php.svg">
+	</a>
+ </a>
+	<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
+		<img height="36" title="JavaScript" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/javascript.svg">
+	</a>
+	<a href="https://www.typescriptlang.org" target="_blank">
+		<img height="36" title="TypeScript" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/typescript.svg">
+	</a>
+ </a>
+	<a href="https://www.mysql.com" target="_blank">
+		<img height="36" title="MySQL" src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/mysql/mysql-original.svg">
+	</a>
+	<a href="https://www.mongodb.com" target="_blank">
+		<img height="36" title="MongoDB" src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/mongodb/mongodb-original.svg">
+	</a>
+</a>
+	<a href="https://nodejs.org" target="_blank">
+		<img height="36" title="Node.js" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/nodejs.svg">
+	</a>
+	<a href="https://expressjs.com" target="_blank">
+		<img height="36" title="Express" src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/express/express-original.svg">
+	</a>
 </div>
 
-### Formas de contato:
+### Contact:
 <div> 
   <a href="https://instagram.com/erickscur" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:erickscur@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
