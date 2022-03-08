@@ -9,7 +9,6 @@
 
 ## About
 - 👦🏻 I'm 18 years old and I live in Videira, Santa Carina, Brazil
-- 🔭 I'm currently working on a REST API [Visit the Project](https://github.com/ErickScur/API-clothing-store)
 - 🌱 Currently studying NodeJS
 - 🧟 Passionate about horror books and movies
 - 🎶 I love listening to Rock, Rap and Pop songs [Spotify Profile](https://open.spotify.com/user/yh5qrz32hhwt9d4wu5rmtnub5?si=da805ebeef884af5)
