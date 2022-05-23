@@ -11,7 +11,7 @@
 - 👦🏻 I'm 18 years old and I live in Videira, Santa Carina, Brazil
 - 🌱 Currently studying NodeJS
 - 🧟 Passionate about horror books and movies
-- 🎶 I love listening to Rock, Rap and Pop songs [Spotify Profile](https://open.spotify.com/user/yh5qrz32hhwt9d4wu5rmtnub5?si=da805ebeef884af5)
+- 🎶 I love listening to Rock, Rap and Pop songs
 
  
  ### Tools and Languages
