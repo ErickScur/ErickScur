@@ -2,14 +2,14 @@
 
 👨‍🎓 Computer Science Student at Instituto Federal Catarinense
 
-👨🏻‍💻 Back-End JavaScript Developer
+👨🏻‍💻 Back-End NodeJs Developer
 
 💼 NodeJS Developer at [Premiersoft](https://premiersoft.net/)
 
 
 ## About
 - 👦🏻 I'm 18 years old and I live in Videira, Santa Carina, Brazil
-- 🌱 Currently studying NodeJS
+- 🌱 Currently studying NestJs and Prisma
 - 🧟 Passionate about horror books and movies
 - 🎶 I love listening to Rock, Rap and Pop songs
 
