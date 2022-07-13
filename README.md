@@ -1,7 +1,5 @@
 # Hi, my name is Erick!
 
-👨‍🎓 Computer Science Student at Instituto Federal Catarinense
-
 👨🏻‍💻 Back-End NodeJs Developer
 
 💼 NodeJS Developer at [Premiersoft](https://premiersoft.net/)
