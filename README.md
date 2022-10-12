@@ -7,7 +7,7 @@
 
 ## About
 - 👦🏻 I'm 18 years old and I live in Videira, Santa Carina, Brazil
-- 🌱 Currently studying NestJs and Prisma
+- 🌱 Currently studying TDD and Clean Architecture
 - 🧟 Passionate about horror books and movies
 - 🎶 I love listening to Rock, Rap and Pop songs
 
