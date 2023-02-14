@@ -6,7 +6,7 @@
 
 
 ## About
-- 👦🏻 I'm 19 years old and I live in Videira, Santa Carina, Brazil
+- 👦🏻 I live in Videira, Santa Carina, Brazil
 - 🌱 Currently studying TDD and Clean Architecture
 - 🧟 Passionate about horror books and movies
 
