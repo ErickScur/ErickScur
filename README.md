@@ -2,13 +2,31 @@
 
 👨🏻‍💻 Back-End NodeJs Developer
 
-💼 NodeJS Developer at [Premiersoft](https://premiersoft.net/)
+💼 NodeJS Developer at [Puravida](http://puravida.com.br/)
 
 
 ## About
-- 👦🏻 I live in Videira, Santa Carina, Brazil
-- 🌱 Currently studying TDD and Clean Architecture
-- 🧟 Passionate about horror books and movies
+I am a Node.js Developer, in love with the tech area and passionate about solving problems.
+
+I have experiencie with the following technologies:
+- Node.js;
+- TypeScript;
+- PostgreSQL, MySQL and MongoDB;
+- Rest APIs;
+- Nest.js;
+- Express;
+- AWS (Lambda, DynamoDB, API Gateway, SQS, AWS CDK);
+- Jest;
+- Git;
+- Docker and Kubernetes;
+- ORM(Prisma , Sequelize, Mongoose);
+- Microservices;
+- Jira and Azure Devops;
+
+I'm capable of developing smart solutions and solving the provided problems by producing high-quality code and utilizing the most used standards in the market.
+I have experience in developing following the S.O.L.I.D, Clean Architecture, Clean Code and TDD principles.
+
+I love challenges and I want to grow professionally every single day.
 
 ### Contact:
 <div> 
