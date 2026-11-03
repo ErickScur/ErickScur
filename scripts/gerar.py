@@ -638,6 +638,81 @@ def banner(destino):
     salvar("banner.svg", svg(W, H - 0, corpo, css, "Do localhost para erickscur.com.br", fundo=NIGHT), destino)
 
 
+def botao_portfolio(destino):
+    w, h = 900, 88
+    css = (".brilho{animation:br 5s ease-in-out infinite}@keyframes br{0%,55%{transform:translateX(-300px)}100%{transform:translateX(1200px)}}"
+           ".vivo{transform-box:fill-box;transform-origin:center;animation:vi 1.8s ease-out infinite}@keyframes vi{from{transform:scale(1);opacity:.7}to{transform:scale(3.2);opacity:0}}"
+           ".sta{animation:st 2.4s ease-in-out infinite}@keyframes st{50%{transform:translate(3px,-3px)}}")
+    corpo = (
+        f'<defs><linearGradient id="g"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".13"/>'
+        f'<stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>'
+        f'<circle class="vivo" cx="44" cy="44" r="7" fill="{ENG}"/><circle cx="44" cy="44" r="7" fill="{ENG}"/>'
+        + t("erickscur.com.br", 70, 56, 36, DISPLAY, ON)
+        + t("no ar · hospedado na HostGator", 806, 49, 12.5, MN, ON2, "end")
+        + f'<g class="sta">{seta(826, 32, 22, ENG, 4)}</g>'
+        + f'<rect class="brilho" x="0" y="-20" width="220" height="130" fill="url(#g)" transform="skewX(-18)"/>'
+    )
+    salvar("site.svg", svg(w, h, corpo, css, "Abrir o site: erickscur.com.br, hospedado na HostGator", r=18), destino)
+
+
+def numeros(destino):
+    w, h = 900, 150
+    itens = [("5", "estudos de caso", ENG), ("3", "frentes, 3 cores", CONT), ("0", "framework", SHB), ("0", "etapa de build", ON)]
+    corpo, css = "", ""
+    lg = w / 4
+    for i, (n, r, c) in enumerate(itens):
+        x = i * lg + 34
+        o, cs, _ = odometro(n, x, 88, 62, DISPLAY, c, "abcd"[i], .2 + i * .15)
+        corpo += o + t(r, x, 118, 12.5, MN, ON2, maxw=lg - 44)
+        css += cs
+        if i:
+            corpo += f'<rect x="{i * lg:.0f}" y="30" width="1" height="90" fill="{NIGHT3}"/>'
+    salvar("numeros.svg", svg(w, h, corpo, css, "5 estudos de caso, 3 frentes, 0 framework, 0 etapa de build"), destino)
+
+
+def hospedagem(destino):
+    W, H, T = 900, 300, 8
+    y = 190
+    nos = [(120, "site.zip", "só o que é site", CONT), (345, "cPanel", "public_html", SHB), (570, "Apache", ".htaccess · HTTPS", ENG)]
+    x_fim = 780
+    css = (f".pac{{animation:pac {T}s cubic-bezier(.5,0,.5,1) infinite}}@keyframes pac{{0%{{transform:translateX(0);opacity:0}}4%{{opacity:1}}"
+           f"30%,38%{{transform:translateX(225px)}}64%,72%{{transform:translateX(450px)}}92%{{transform:translateX(660px);opacity:1}}98%,100%{{transform:translateX(660px);opacity:0}}}}"
+           f".on{{transform-box:fill-box;transform-origin:center;animation:on {T}s ease infinite}}@keyframes on{{0%,88%{{transform:scale(.97);opacity:.55}}93%,100%{{transform:none;opacity:1}}}}")
+    corpo = (t("hospedagem", 40, 50, 12, MN, ON3)
+             + t("No ar na HostGator.", 40, 92, 33, DISPLAY, ON)
+             + t("Sem servidor de aplicação: arquivos estáticos, publicados pelo cPanel.", 40, 122, 14, TEXTO, ON2, maxw=820)
+             + f'<rect x="120" y="{y - 1}" width="660" height="2" fill="{NIGHT3}"/>')
+    for x, a, b, c in nos:
+        corpo += (f'<circle cx="{x}" cy="{y}" r="24" fill="{NIGHT2}" stroke="{c}" stroke-width="2"/>'
+                  + t(a, x, y + 52, 13, MNB, ON, "middle") + t(b, x, y + 72, 10.5, MN, ON3, "middle"))
+    corpo += (f'<g class="on"><rect x="{x_fim - 16}" y="{y - 24}" width="112" height="48" rx="12" fill="{ENG}"/>'
+              + t("no ar", x_fim + 40, y + 6, 15, DISPLAY, INK, "middle") + "</g>"
+              + t("erickscur.com.br", x_fim + 40, y + 52, 11.5, MNB, ON, "middle", maxw=130))
+    corpo += f'<g class="pac"><circle cx="120" cy="{y}" r="7" fill="{CONT}"/></g>'
+    salvar("hospedagem.svg", svg(W, H, corpo, css, "Hospedado na HostGator: o zip do site vai pelo cPanel e fica no ar em erickscur.com.br"), destino)
+
+
+def design(destino):
+    W, H = 900, 320
+    css = (".b0,.b1,.b2{animation:bl 1s cubic-bezier(.16,1,.3,1) both}.b0{animation-delay:.1s}.b1{animation-delay:.22s}.b2{animation-delay:.34s}"
+           "@keyframes bl{from{transform:translateX(-430px)}}"
+           ".aa{animation:aa 6s ease-in-out infinite alternate}@keyframes aa{to{transform:translateY(-8px)}}")
+    faixas = [("engenharia", "--eng  #FF5A36", ENG, INK), ("conteúdo", "--cont  #FFC21A", CONT, INK), ("software house", "--sh  #3552EC", SH, "#FFFFFF")]
+    corpo = ""
+    for i, (n, tok, c, tx) in enumerate(faixas):
+        yy = i * 106 + 2
+        corpo += (f'<g class="b{i}"><rect y="{yy}" width="430" height="104" fill="{c}"/>'
+                  + t(n, 34, yy + 50, 24, DISPLAY, tx, maxw=380) + t(tok, 34, yy + 76, 12, MN, tx) + "</g>")
+    corpo += (t("a cor é a categoria", 470, 50, 12, MN, ON3)
+              + f'<g class="aa">{t("Archivo", 470, 134, 66, DISPLAY, ON, maxw=400)}</g>'
+              + t("Martian Mono, para os rótulos", 470, 176, 14, MN, ON2, maxw=400)
+              + f'<rect x="470" y="200" width="396" height="1" fill="{NIGHT3}"/>'
+              + t("GSAP · ScrollTrigger · SplitText · Lenis", 470, 232, 13, MN, ON, maxw=400)
+              + t("View Transitions nativas", 470, 258, 13, MN, ON, maxw=400)
+              + t("prefers-reduced-motion respeitado", 470, 284, 13, MN, ON, maxw=400))
+    salvar("design.svg", svg(W, H, corpo, css, "Sistema de design: três cores, Archivo e Martian Mono", fundo=NIGHT), destino)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--pulso", action="store_true")
@@ -649,4 +724,6 @@ if __name__ == "__main__":
     hero(); botao_site(); frentes(); caso_nerso(); caso_reels(); caso_juntos(); caso_candidatus(); caso_maquina(); caso_todos(); carreira()
     pilula("linkedin", "LinkedIn"); pilula("instagram", "Instagram"); pilula("tiktok", "TikTok"); pilula("email", "E-mail")
     if a.portfolio:
-        banner(a.portfolio)
+        banner(a.portfolio); botao_portfolio(a.portfolio); numeros(a.portfolio); hospedagem(a.portfolio); design(a.portfolio)
+        for n in ("nerso", "reels", "juntos", "candidatus", "maquina", "todos"):
+            salvar(f"caso-{n}.svg", (OUT / f"caso-{n}.svg").read_text(encoding="utf-8"), a.portfolio)
